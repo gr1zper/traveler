@@ -1,4 +1,4 @@
-package org.app.module.entity.geography;
+package org.app.model.entity.geography;
 
 /**
  * Geographical coordinate of an object

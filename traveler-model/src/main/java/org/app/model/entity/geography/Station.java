@@ -1,7 +1,9 @@
-package org.app.module.entity.geography;
+package org.app.model.entity.geography;
 
-import org.app.module.entity.base.AbstractEntity;
-import org.app.module.entity.transport.TransportType;
+import org.app.model.entity.base.AbstractEntity;
+import org.app.model.entity.transport.TransportType;
+
+import java.util.Objects;
 
 /**
  * Station where passengers can get off or take specific kind
@@ -21,12 +23,13 @@ public class Station extends AbstractEntity {
     private Coordinate coordinate;
     private TransportType transportType;
 
-    public City getCity() {
-        return city;
+    public Station(final City city, final TransportType transportType) {
+        this.city = Objects.requireNonNull(city);
+        this.transportType = Objects.requireNonNull(transportType);
     }
 
-    public void setCity(City city) {
-        this.city = city;
+    public City getCity() {
+        return city;
     }
 
     public Address getAddress() {
@@ -57,7 +60,4 @@ public class Station extends AbstractEntity {
         return transportType;
     }
 
-    public void setTransportType(TransportType transportType) {
-        this.transportType = transportType;
-    }
 }

@@ -1,9 +1,9 @@
-package org.app.module.entity.base;
+package org.app.model.entity.base;
 
 import java.time.LocalDateTime;
 import java.util.Objects;
 
-import org.app.module.entity.person.Account;
+import org.app.model.entity.person.Account;
 
 /**
  * Base class for all business entities

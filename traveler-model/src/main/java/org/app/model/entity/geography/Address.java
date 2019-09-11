@@ -1,4 +1,4 @@
-package org.app.module.entity.geography;
+package org.app.model.entity.geography;
 
 /**
  * Value type that stores address attributes of the specific office or person

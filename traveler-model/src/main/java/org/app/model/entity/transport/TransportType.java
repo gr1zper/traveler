@@ -1,4 +1,4 @@
-package org.app.module.entity.transport;
+package org.app.model.entity.transport;
 
 /**
  *  Type of the station/transport/vehicle

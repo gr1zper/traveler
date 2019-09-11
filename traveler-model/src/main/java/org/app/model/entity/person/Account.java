@@ -1,6 +1,6 @@
-package org.app.module.entity.person;
+package org.app.model.entity.person;
 
-import org.app.module.entity.base.AbstractEntity;
+import org.app.model.entity.base.AbstractEntity;
 
 /**
  * Entity that encapsulates user of the application
