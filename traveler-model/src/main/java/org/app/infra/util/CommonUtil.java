@@ -10,6 +10,7 @@ import java.util.Set;
  * @author avzubkov
  */
 public class CommonUtil {
+
     private CommonUtil(){
     }
 
