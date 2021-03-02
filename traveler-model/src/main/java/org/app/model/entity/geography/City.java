@@ -11,6 +11,7 @@ import java.util.*;
  * @author avzubkov
  */
 public class City extends AbstractEntity {
+
     private String name;
 
     /**

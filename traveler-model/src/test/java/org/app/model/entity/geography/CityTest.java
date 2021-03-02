@@ -10,6 +10,7 @@ import static org.junit.Assert.*;
  * @author avzubkov
  */
 public class CityTest {
+
     private City city;
 
     @Before
