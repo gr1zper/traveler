@@ -12,6 +12,7 @@
         <module>traveler-persistence</module>
         <module>traveler-model</module>
         <module>traveler-presentation</module>
+        <module>traveler-service</module>
     </modules>
     <properties>
         <java.version>11</java.version>
