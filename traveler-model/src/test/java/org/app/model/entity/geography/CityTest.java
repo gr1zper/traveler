@@ -1,20 +1,22 @@
 package org.app.model.entity.geography;
 
 import org.app.model.entity.transport.TransportType;
-import org.junit.Before;
-import org.junit.Test;
-import static org.junit.Assert.*;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.*;
 
 /**
  * Contains unit-tests to check functionality of {@link City} class
+ *
  * @author avzubkov
  */
 public class CityTest {
 
-    private City city;
+    private static City city;
 
-    @Before
-    public void setup() {
+    @BeforeAll
+    static void setup() {
         city = new City("London");
     }
 
@@ -25,10 +27,9 @@ public class CityTest {
         assertEquals(city, station.getCity());
     }
 
-    @Test(expected = NullPointerException.class)
+    @Test
     public void testAddNullStationFailure() {
-        city.addStation(null);
-        assertTrue(false);
+        assertThrows(NullPointerException.class, () -> city.addStation(null));
     }
 
     @Test
@@ -38,10 +39,9 @@ public class CityTest {
         assertTrue(city.getStations().isEmpty());
     }
 
-    @Test(expected = NullPointerException.class)
+    @Test
     public void testRemoveNullStationFailure() {
-        city.removeStation(null);
-        assertTrue(false);
+        assertThrows(NullPointerException.class, () -> city.removeStation(null));
     }
 
     private boolean containsStation(City city, Station station) {

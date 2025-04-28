@@ -1,9 +1,10 @@
 package org.app.infra.util;
 
 import org.app.infra.exception.flow.InvalidParameterException;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.*;
+
 
 public class ChecksTest {
 

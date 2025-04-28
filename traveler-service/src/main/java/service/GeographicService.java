@@ -1,4 +1,4 @@
-package org.app.service;
+package service;
 
 import org.app.model.entity.geography.City;
 import java.util.List;

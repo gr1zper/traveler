@@ -1,8 +1,8 @@
-package org.app.service.impl;
+package service.impl;
 
 import org.app.infra.util.CommonUtil;
 import org.app.model.entity.geography.City;
-import org.app.service.GeographicService;
+import service.GeographicService;
 
 import java.util.ArrayList;
 import java.util.List;
