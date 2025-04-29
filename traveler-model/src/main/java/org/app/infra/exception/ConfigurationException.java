@@ -4,6 +4,7 @@ import org.app.infra.exception.base.AppException;
 
 /**
  * Signals about incorrect configuration settings / parameters
+ *
  * @author azubkov
  */
 public class ConfigurationException extends AppException {
@@ -16,6 +17,10 @@ public class ConfigurationException extends AppException {
 
     public ConfigurationException(String message) {
         super(message);
+    }
+
+    public ConfigurationException(Throwable cause) {
+        super(cause);
     }
 
 }
