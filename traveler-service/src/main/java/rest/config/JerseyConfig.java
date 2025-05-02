@@ -1,4 +1,4 @@
-package service.rest.config;
+package rest.config;
 
 import jakarta.ws.rs.ApplicationPath;
 import org.glassfish.jersey.server.ResourceConfig;
@@ -8,6 +8,6 @@ import org.glassfish.jersey.server.ResourceConfig;
 public class JerseyConfig extends ResourceConfig {
 
     public JerseyConfig() {
-        packages("service.rest");
+        packages("rest");
     }
 }

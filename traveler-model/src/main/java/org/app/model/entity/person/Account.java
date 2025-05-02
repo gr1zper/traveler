@@ -1,5 +1,6 @@
 package org.app.model.entity.person;
 
+
 import org.app.model.entity.base.AbstractEntity;
 
 /**

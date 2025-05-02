@@ -35,6 +35,9 @@ public class City extends AbstractEntity {
         this.name = name;
     }
 
+    public City() {
+    }
+
     public String getName() {
         return name;
     }
