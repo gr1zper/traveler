@@ -5,12 +5,13 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/status-in%20progress-blue" alt="status" />
+  <img src="https://img.shields.io/badge/goal-educational-success" alt="goal" />
   <img src="https://img.shields.io/badge/focus-quality-important" alt="quality" />
 </p>
 
 ---
 
-## ✨ Project Vision
+## Project Vision
 
 Every real-world application starts with an idea — and this one brings together complexity, clarity, and real use-case potential. Forget coffee machines and ATMs: we're building a **transport ticketing system** that's closer to the real-world challenges modern developers face.
 
