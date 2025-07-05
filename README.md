@@ -11,7 +11,7 @@
 
 ---
 
-## Project Vision
+# Project Vision
 
 Every real-world application starts with an idea — and this one brings together complexity, clarity, and real use-case potential. Forget coffee machines and ATMs: we're building a **transport ticketing system** that's closer to the real-world challenges modern developers face.
 
