@@ -5,7 +5,6 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/status-in%20progress-blue" alt="status" />
-  <img src="https://img.shields.io/badge/goal-educational-success" alt="goal" />
   <img src="https://img.shields.io/badge/focus-quality-important" alt="quality" />
 </p>
 
