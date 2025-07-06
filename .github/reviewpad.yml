@@ -1,6 +1,0 @@
-api-version: reviewpad.com/v3.x
-
-workflows:
-  - name: Java AI Review
-    rules:
-      - rule: $always()
