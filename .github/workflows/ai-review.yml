@@ -1,11 +1,11 @@
-name: AI Code Review with Reviewpad
+name: AI Code Review (Reviewpad)
 
 on:
   pull_request:
     types: [opened, synchronize]
 
 jobs:
-  reviewpad:
+  review:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
